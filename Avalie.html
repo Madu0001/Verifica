@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalie - Senai Shunji Nishimura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Avalie</h1>
+        <p>Senai Shunji Nishimura</p>
+    </header>
+
+    <main>
+        <form action="pagina-de-agradecimento.html" method="post">
+            <div class="campos">
+                <label for="sala">Sala:</label>
+                <input type="text" id="sala" name="sala" required>
+
+                <label for="qualidade">Qualidade:</label>
+                <select id="qualidade" name="qualidade" required>
+                    <option value="">Selecione</option>
+                    <option value="otimo">Ótimo</option>
+                    <option value="bom">Bom</option>
+                    <option value="regular">Regular</option>
+                    <option value="ruim">Ruim</option>
+                </select>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="agradecimento" class="escondido">
+            <h2>Muito obrigado por sua avaliação!</h2>
+            <p>Sua opinião é muito importante para nós.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Senai Shunji Nishimura</p>
+    </footer>
+
+    <script>
+        const formulario = document.querySelector('form');
+        const agradecimento = document.querySelector('#agradecimento');
+
+        formulario.addEventListener('submit', function(event) {
+            event.preventDefault(); // Evita o envio padrão do formulário
+
+            formulario.style.display = 'none'; // Esconde o formulário
+            agradecimento.classList.remove('escondido'); // Exibe a mensagem de agradecimento
+        });
+    </script>
+</body>
+</html>
