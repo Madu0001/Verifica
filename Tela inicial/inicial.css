@@ -1,76 +1,100 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Change the height to 100vh */
-    font-family: Arial, sans-serif;
-    background-color: #fff; /* Cor do fundo no modo claro */
-    color: #000; /* Cor do texto no modo claro */
-    transition: background-color 0.5s ease, color 0.5s ease; /* Transição suave entre os modos */
-  }
-
-  .dark-mode {
-    background-color: #333; /* Cor do fundo no modo escuro */
-    color: #fff; /* Cor do texto no modo escuro */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* Change the height to 100vh */
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  /* Cor do fundo no modo claro */
+  color: #000;
+  /* Cor do texto no modo claro */
+  transition: background-color 0.5s ease, color 0.5s ease;
+  /* Transição suave entre os modos */
 }
-  
-  .red-button {
-    width: 150px; /* Adjust width as desired */
-  height: 41px; /* Adjust height as desired */
-    background-color: rgb(203, 32, 32);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-  }
-  
-  .gray-button {
-    width: 120px; /* Adjust width as desired */
-  height: 31px; /* Adjust height as desired */
-    background-color: #ccc; /* Add a gray background color */
-    color: #333; /* Add a dark gray text color */
-    padding: 7px 14px; /* Add padding to make the button bigger */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px; /* Add margin to match the red buttons */
-  }
-  
-  #tribute-headers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #title {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  #subtitle {
-    font-size: 1.0rem;
-    color: #767676;
-    margin-top: -0.5rem;
-  }
 
-  #toggleMode {  /* Target the button by its ID */
-    background-color: #000000; /* Adjust background color as desired */
-    color: white;
-    border: none;
-    padding: 10px 20px; /* Adjust padding for spacing */
-    font-size: 16px;
-    border-radius: 5px; /* Add rounded corners */
-    cursor: pointer;
-    transition: background-color 0.2s ease; /* Smooth background color change on hover */
-    position: absolute; /* Position the button absolutely */
-  top: 10px; /* Adjust top position from the top of the page */
-  right: 10px; /* Adjust right position from the right edge of the page */
-  }
-  
-  #toggleMode:hover { /* Style changes on hover */
-    background-color: #000000; /* Adjust hover color as desired */
-  }
+.dark-mode {
+  background-color: #333;
+  /* Cor do fundo no modo escuro */
+  color: #fff;
+  /* Cor do texto no modo escuro */
+}
+
+.red-button {
+  width: 150px;
+  /* Adjust width as desired */
+  height: 41px;
+  /* Adjust height as desired */
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.gray-button {
+  width: 120px;
+  /* Adjust width as desired */
+  height: 31px;
+  /* Adjust height as desired */
+  background-color: #ccc;
+  /* Add a gray background color */
+  color: #333;
+  /* Add a dark gray text color */
+  padding: 7px 14px;
+  /* Add padding to make the button bigger */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  /* Add margin to match the red buttons */
+}
+
+#tribute-headers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#subtitle {
+  font-size: 1.0rem;
+  color: #767676;
+  margin-top: -0.5rem;
+}
+
+#toggleMode {
+  /* Target the button by its ID */
+  background-color: #000000;
+  /* Adjust background color as desired */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  /* Adjust padding for spacing */
+  font-size: 16px;
+  border-radius: 5px;
+  /* Add rounded corners */
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  /* Smooth background color change on hover */
+  position: absolute;
+  /* Position the button absolutely */
+  top: 10px;
+  /* Adjust top position from the top of the page */
+  right: 10px;
+  /* Adjust right position from the right edge of the page */
+}
+
+#toggleMode:hover {
+  /* Style changes on hover */
+  background-color: #000000;
+  /* Adjust hover color as desired */
+}
