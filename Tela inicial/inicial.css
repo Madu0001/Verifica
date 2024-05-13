@@ -98,3 +98,7 @@ body {
   background-color: #000000;
   /* Adjust hover color as desired */
 }
+
+.pt-1{
+  padding-top: 40px;
+}
