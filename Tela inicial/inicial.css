@@ -22,9 +22,9 @@ body {
 }
 
 .red-button {
-  width: 150px;
+  width: 200px;
   /* Adjust width as desired */
-  height: 41px;
+  height: 50px;
   /* Adjust height as desired */
   background-color: rgb(255, 0, 0);
   color: white;
