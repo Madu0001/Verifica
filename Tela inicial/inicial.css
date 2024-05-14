@@ -22,13 +22,13 @@ body {
 }
 
 .red-button {
-  width: 150px;
+  width: 200px;
   /* Adjust width as desired */
-  height: 41px;
+  height: 50px;
   /* Adjust height as desired */
   background-color: rgb(255, 0, 0);
   color: white;
-  padding: 10px 20px;
+  padding: 20px 40px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -44,7 +44,7 @@ body {
   /* Add a gray background color */
   color: #333;
   /* Add a dark gray text color */
-  padding: 7px 14px;
+  padding: 17px 37px;
   /* Add padding to make the button bigger */
   border: none;
   border-radius: 5px;
@@ -61,12 +61,12 @@ body {
 }
 
 #title {
-  font-size: 2.5rem;
+  font-size:4.5rem;
   margin-bottom: 0.5rem;
 }
 
 #subtitle {
-  font-size: 1.0rem;
+  font-size: 3.0rem;
   color: #767676;
   margin-top: -0.5rem;
 }
@@ -98,3 +98,8 @@ body {
   background-color: #000000;
   /* Adjust hover color as desired */
 }
+
+.pt-1{
+  padding-top: 60px;
+}
+
