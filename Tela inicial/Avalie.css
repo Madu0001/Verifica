@@ -63,10 +63,11 @@ textarea {
     background-color: #c0392b; /* Vermelho */
     color: #fff;
     border: none;
-    padding: 15px 20px;
+    padding: 20px 40px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 24px;
 }
 
 .botao-enviar:hover {
