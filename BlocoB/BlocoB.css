@@ -48,4 +48,9 @@ body {
     padding: 20px 0;
     text-align: center;
   }
+  {
+    bottom: 0; 
+    right: 0; 
+    transform: translateY(0); 
+}
   
