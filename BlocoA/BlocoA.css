@@ -1,58 +1,96 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .big-button {
-    background-color: #c0392b; /* red */
-    color: #FFFFFF; /* white */
-    padding: 15px 60px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 24px;
-    font-weight: bold; /* add this line to make the button letters bold */
-    margin-top: 20px;
-  }
-  
-  .small-button {
-    background-color: #CCCCCC; /* gray */
-    color: #333333; /* dark gray */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: bold; /* add this line to make the button letters bold */
-    margin-top: 20px;
-  }
-  
-  .image {
-    display: block;
-    margin: 20px 0;
-    width: 90%;
-    height: auto;
-  }
-  
-  .top-left-button {
-    position: fixed; /* position the button relative to the viewport */
-    top: 10px; /* set the top margin */
-    left: 10px; /* set the left margin */
-    background-color: #CCCCCC; /* set the background color to gray */
-    color: #838383; /* set the text color to dark gray */
-    padding: 5px 15px; /* set the padding */
-    border: none; /* remove the border */
-    border-radius: 50%; /* make the button round */
-    font-size: 20px; /* set the font size */
-    cursor: pointer; /* set the cursor style */
-  }
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big-button {
+  background-color: #c0392b; /* red */
+  color: #FFFFFF; /* white */
+  padding: 15px 60px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold; /* add this line to make the button letters bold */
+  margin-top: 20px;
+}
+
+.small-button {
+  background-color: #CCCCCC; /* gray */
+  color: #333333; /* dark gray */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold; /* add this line to make the button letters bold */
+  margin-top: 20px;
+}
+
+.image {
+  display: block;
+  margin: 20px 0;
+  width: 90%;
+  height: auto;
+}
+
+.top-left-button {
+  position: fixed; /* position the button relative to the viewport */
+  top: 10px; /* set the top margin */
+  left: 10px; /* set the left margin */
+  background-color: #CCCCCC; /* set the background color to gray */
+  color: #838383; /* set the text color to dark gray */
+  padding: 5px 15px; /* set the padding */
+  border: none; /* remove the border */
+  border-radius: 50%; /* make the button round */
+  font-size: 20px; /* set the font size */
+  cursor: pointer; /* set the cursor style */
+}
+
+.sidebar {
+  position: fixed; /* position the sidebar relative to the viewport */
+  top: 50px; /* set the top margin */
+  right: 10px; /* set the right margin */
+  background-color: #c0392b; /* set the background color to red */
+  padding: 20px; /* set the padding */
+  width: 150px; /* set the width */
+  text-align: left; /* align the text to the left */
+  color: #FFFFFF; /* set the text color to white */
+}
+
+.sidebar {
+  position: fixed; /* position the sidebar relative to the viewport */
+  top: 0; /* set the top margin to 0 */
+  right: 0; /* set the right margin to 0 */
+  background-color: #c0392b; /* set the background color to red */
+  padding: 20px; /* set the padding */
+  width: 150px; /* set the width */
+  text-align: left; /* align the text to the left */
+  color: #FFFFFF; /* set the text color to white */
+  height: 100vh; /* set the height to 100% of the viewport height */
+}
+
+.yellow {
+  color: #FFFF00;
+  font-weight: bold;
+}
+
+.green {
+  color: #00FF00;
+  font-weight: bold;
+}
+
+.orange {
+  color: #FFA500;
+  font-weight: bold;
+}
