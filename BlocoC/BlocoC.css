@@ -1,51 +1,58 @@
 body {
-    background-color: #fff;
     font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background-color: red;
-    color: #fff;
-    padding: 20px 0;
-  }
-  
-  .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  h1, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
   }
   
-  h1 {
-    font-size: 36px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  h2 {
+  .big-button {
+    background-color: #c0392b; /* red */
+    color: #FFFFFF; /* white */
+    padding: 15px 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
     font-size: 24px;
+    font-weight: bold; /* add this line to make the button letters bold */
+    margin-top: 20px;
   }
   
-  main {
-    padding: 40px 0;
+  .small-button {
+    background-color: #CCCCCC; /* gray */
+    color: #333333; /* dark gray */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold; /* add this line to make the button letters bold */
+    margin-top: 20px;
   }
   
-  .block-a {
-    width: 80%;
-    margin: 0 auto;
-    border-bottom: 5px dashed red;
-    padding: 20px;
-  }
-  
-  .block-a img {
-    max-width: 100%;
+  .image {
+    display: block;
+    margin: 20px 0;
+    width: 90%;
     height: auto;
   }
   
-  footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
-    text-align: center;
+  .top-left-button {
+    position: fixed; /* position the button relative to the viewport */
+    top: 10px; /* set the top margin */
+    left: 10px; /* set the left margin */
+    background-color: #CCCCCC; /* set the background color to gray */
+    color: #838383; /* set the text color to dark gray */
+    padding: 5px 15px; /* set the padding */
+    border: none; /* remove the border */
+    border-radius: 50%; /* make the button round */
+    font-size: 20px; /* set the font size */
+    cursor: pointer; /* set the cursor style */
   }
-  
